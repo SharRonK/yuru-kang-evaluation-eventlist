@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eventlist-app__btnArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eventlist-app__addBtn {
+    background-color: #008cba;
+    color: white;
+    height: 30px;
+    width: 25%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.event__edit-btn {
+    background-color: #008cba;
+    color: white;
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /* margin-left: 5%; */
+}
+.event__delete-btn {
+    background-color: #c94c4c;
+    color: white;
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+  
+.eventlist-app__table {
+    border: 2px solid #e6e2d3;
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 100%;
+
+}
+  
+.eventlist-app__table th,
+.eventlist-app__table td {
+    padding: 8px;
+}
+  
+
+.eventlist-app__table-body td {
+    margin: 100px;
+    background-color: #e6e2d3;
+}
+  
+/* .eventlist-app__table-body tr:hover {
+    background-color: white;
+}
+   */
